@@ -18,11 +18,14 @@ h1{
 }
 
 h3{
+    margin-top: 10px;
     font-family: 'Bebas Neue', cursive;
     font-size: 35px;
+    letter-spacing: 2px;
 }
 
 p{
+    padding-top: 10px;
     font-family: 'Comfortaa', cursive;
 }
 
