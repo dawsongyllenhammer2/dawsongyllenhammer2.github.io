@@ -1,0 +1,56 @@
+
+*{
+    margin-left: 10px;
+    /* background-color: rgba(39, 39, 39,); */
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.439);
+    background-image: url("../images/dark-grunge-textures-7.jpg");
+    background-repeat: repeat;
+    background-size: 20%;
+}
+
+img{
+    /* width:250px */
+    width: 15%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: rgb(117, 237, 117);
+    text-transform: uppercase;
+}
+
+ul.navbar{
+    list-style-type: none;;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+}
+
+a:link{
+    color: white
+}
+a:visited{
+    color: rgb(211, 211, 211);
+}
+a:hover{
+    color: rgb(117, 237, 117);
+    transition: 0.7s;
+}
+
+h1{
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+    text-decoration: overline;
+}
+
+p{
+    width: 500px;
+    line-height: 120%;
+    color: rgb(117, 237, 117);
+}
