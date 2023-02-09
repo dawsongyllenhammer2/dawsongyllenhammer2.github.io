@@ -1,6 +1,8 @@
 
 *{
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    margin: 0;
+    padding: 0;
     /* background-color: rgba(39, 39, 39,); */
     font-family: 'Rubik', sans-serif;
 }
@@ -12,6 +14,33 @@ body{
     background-size: 20%;
 }
 
+#wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+nav{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer{
+    margin-top: 2%;
+    padding: 3% 10% 3% 10%;
+    background-color: rgb(86, 86, 86);
+}
+
+ul li{
+    padding: 2%;
+}
+
 img{
     /* width:250px */
     width: 15%;
@@ -21,13 +50,18 @@ img{
 h1, h2, h3, h4, h5, h6{
     color: rgb(117, 237, 117);
     text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 ul.navbar{
     list-style-type: none;;
-    font-size: 1.2em;
-    display: flex;
-    flex-direction: row;
+    font-size: 1em;
+    /* display: flex;
+    flex-direction: row; */
+}
+ul li{
+    display: inline;
 }
 
 a:link{
@@ -50,7 +84,102 @@ h1{
 }
 
 p{
-    width: 500px;
     line-height: 120%;
     color: rgb(117, 237, 117);
+}
+
+#bodytext{
+    width: 60%;
+}
+
+.columns {
+    float:left;
+    background-color: rgb(12, 12, 12);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 5px;
+    height: 0.2%;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+    position: relative;
+}
+#column-p{
+    position: absolute;
+    width: 80%;
+    }
+
+.col-7 {
+    width: 58.33%;
+    overflow: auto;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+button{
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    width: 10%;
+    height: 5%;
+    background-color: rgb(117, 237, 117);
+    border: none;
+    border-radius: 15px;
+    font-weight: 500;
+    color: rgb(60, 60, 60);
+    box-shadow: 3px 3px 10px black;
+}
+
+button:hover{
+    background-color: rgb(60, 60, 60);
+    color: rgb(117, 237, 117);
+    transition: all 0.5s;
+    border: 3px solid rgb(117, 237, 117);
+}
+
+.z-index{
+    position: relative;
+}
+
+#z-text{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 2%;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px black;
+    color: white;
 }
