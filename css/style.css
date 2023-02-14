@@ -30,6 +30,10 @@ nav{
     padding-right: 5%;
 }
 
+nav ul li {
+    margin-bottom: 2%;
+}
+
 footer{
     margin-top: 2%;
     padding: 3% 10% 3% 10%;
@@ -114,14 +118,17 @@ p{
 .col-5 {
     width: 41.66%;
 }
-.col-6 {
+.col-6{
+    width: 50%;
+}
+/* .col-6 {
     width: 50%;
     position: relative;
 }
 #column-p{
     position: absolute;
     width: 80%;
-    }
+    } */
 
 .col-7 {
     width: 58.33%;
@@ -182,3 +189,54 @@ button:hover{
     text-shadow: 0px 0px 5px black;
     color: white;
 }
+
+@media only screen and (max-width: 1297px) {
+    nav ul li{
+        display: block;
+        padding: 5px;
+    }
+
+    nav{
+        margin: 0.5%;
+    }
+
+    button{
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    #wrapper {
+        width: 95%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .columns {
+        width: 90%;
+        float: left;
+        margin-left: 2%; 
+        margin-right: 5%;
+
+    }
+    img{
+        width: 23%;
+    }
+
+    .z-index{
+        display: none;
+    }
+
+    #bodytext{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .columns {
+    width: 100%;
+    float: left;
+    margin-right: 3%;
+    margin-left: 0%;
+    }}
