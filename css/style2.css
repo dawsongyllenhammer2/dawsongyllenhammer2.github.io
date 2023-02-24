@@ -1,0 +1,42 @@
+*{
+    /* margin-left: 10px; */
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(39, 39, 39,); */
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.439);
+    background-image: url("../images/dark-grunge-textures-7.jpg");
+    background-repeat: repeat;
+    background-size: 20%;
+}
+
+p, h2, h3, h4, h5, h6{
+    color: rgb(219, 219, 219);
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+img{
+    width: 80%;
+}
+
+a{
+    color: rgb(117, 237, 117) !important;
+    text-decoration: none;
+}
+
+.nav{
+    background-color: rgb(66, 66, 66);
+        padding: 2%;
+}
+
+
+.footer{
+    background-color: rgb(66, 66, 66);
+    padding: 2%;
+}
