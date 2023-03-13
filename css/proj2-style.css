@@ -126,7 +126,7 @@ h4{
 .animate{
     color: rgb(233, 233, 233) ;
     animation-name: moving;
-    animation-duration: 6s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
@@ -196,18 +196,18 @@ h4{
     .space{
         height: 0px !important;
     }
-    #motion{
+    /* #motion{
         width: 140%;
-    }
+    } */
     #lost{
         width: 80%;
     }
     .hide{
         display: none;
     }
-    .squares{
+    /* .squares{
         width: 150%;
-    }
+    } */
     .eyecard{
         width: 50%;
     }
