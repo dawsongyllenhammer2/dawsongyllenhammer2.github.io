@@ -63,6 +63,11 @@ h4{
     line-height: 21px;
 }
 
+.topcard:hover{
+    background-color: #ffffff;
+    transition: all 0.7s;
+}
+
 .top-p{
     padding-top: 15px;
     height: 65px;
